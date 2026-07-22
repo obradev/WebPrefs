@@ -1,13 +1,13 @@
 {
   "name": "com.obradev.webprefs",
   "displayName": "WebPrefs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "unity": "6000.0",
   "description": "Reliable and Powerful WebGL storage that keeps up with your updates.",
   "author": {
     "name": "obradev",
     "url": "http://obradev.com",
-    "email": "msg.obradev@pm.me"
+    "email": "hello@obradev.com"
   },
   "changelogUrl": "https://obradev.com/webprefs/changelog",
   "documentationUrl": "https://obradev.com/webprefs",
