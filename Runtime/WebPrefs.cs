@@ -144,8 +144,10 @@ namespace ObraDev.WebPrefs
                 {
                     int result = SaveToLocalStorage(MasterKey, master);
                     if (result == 0)
+                    {
                         Debug.LogError("WebPrefs: Failed to write to localStorage.");
                         OnSaveFailed?.Invoke();
+                    }
                     else { OnKeySaved?.Invoke(key); }
                     SaveIDBKey(MasterKey, "main", master);
                 }
